@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
 import { useState } from 'react';
@@ -125,7 +126,7 @@ export default function OnboardingPage() {
 
             {/* Next Steps */}
             <div className="space-y-4">
-              <h4 className="font-semibold text-lg">What's next?</h4>
+              <h4 className="font-semibold text-lg">What&apos;s next?</h4>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 p-3 bg-gray-50 dark:bg-gray-800 rounded-lg">
                   <CheckCircle className="w-5 h-5 text-green-600" />

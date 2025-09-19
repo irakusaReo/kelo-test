@@ -55,7 +55,7 @@ export default function CheckoutPage() {
     setStep(2);
   };
 
-  const handlePaymentComplete = async (paymentData: any) => {
+  const handlePaymentComplete = async (paymentData: unknown) => {
     setIsProcessing(true);
     
     try {

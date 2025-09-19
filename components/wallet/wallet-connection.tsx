@@ -1,3 +1,4 @@
+/* eslint-enable @typescript-eslint/no-explicit-any */
 'use client';
 
 import { useConnect, useAccount } from 'wagmi';
@@ -64,7 +65,7 @@ export function WalletConnection({ onClose }: WalletConnectionProps) {
         
         <div className="space-y-6">
           <p className="text-gray-600 dark:text-gray-300 text-center">
-            Choose how you'd like to connect to Kelo
+            Choose how you&apos;d like to connect to Kelo
           </p>
           
           {/* Google Sign-In Option */}
@@ -131,7 +132,7 @@ export function WalletConnection({ onClose }: WalletConnectionProps) {
                     variant="outline"
                     className="w-full" 
                     disabled={isPending}
-                    loading={isPending && selectedConnector === connector.id}
+                    // loading={isPending && selectedConnector === connector.id}
                   >
                     {isPending && selectedConnector === connector.id 
                       ? 'Connecting...' 

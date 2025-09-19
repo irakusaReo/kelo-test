@@ -55,7 +55,7 @@ export default function AuthSuccessPage() {
 
           <div className="bg-green-50 dark:bg-green-950 p-4 rounded-lg text-left">
             <h4 className="font-medium text-green-800 dark:text-green-200 mb-2">
-              What's next?
+              What&apos;s next?
             </h4>
             <ul className="text-sm text-green-700 dark:text-green-300 space-y-1">
               <li>• Complete your profile setup</li>

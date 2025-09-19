@@ -1,3 +1,4 @@
+/* eslint-enable @typescript-eslint/no-explicit-any */
 import { z } from 'zod';
 
 export interface OnboardingData {

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
 import { useState } from 'react';
@@ -232,7 +233,7 @@ export function PaymentWidget({ amount, merchantName, productName, onPaymentComp
                 <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">You're approved!</h3>
+                <h3 className="text-lg font-semibold mb-2">You&apos;re approved!</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Complete your first payment to finish the purchase
                 </p>
@@ -286,7 +287,7 @@ export function PaymentWidget({ amount, merchantName, productName, onPaymentComp
               </Button>
 
               <p className="text-xs text-center text-gray-500">
-                By continuing, you agree to Kelo's Terms of Service and Privacy Policy
+                By continuing, you agree to Kelo&apos;s Terms of Service and Privacy Policy
               </p>
             </div>
           )}

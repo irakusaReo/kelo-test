@@ -189,7 +189,7 @@ export function BNPLApplication({ onClose }: BNPLApplicationProps) {
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-xs font-bold">2</div>
-              <span>Choose "Pay with Kelo" at checkout</span>
+              <span>Choose &quot;Pay with Kelo&quot; at checkout</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-xs font-bold">3</div>

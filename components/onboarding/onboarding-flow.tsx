@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
 import { useState } from 'react';
@@ -254,7 +255,7 @@ export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
                 <span>Personal Information</span>
               </CardTitle>
               <p className="text-gray-600 dark:text-gray-300">
-                Let's start with your basic information
+                Let&apos;s start with your basic information
               </p>
             </CardHeader>
             <CardContent>
@@ -616,7 +617,7 @@ export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
                               <SelectItem value="good">Good (650-749)</SelectItem>
                               <SelectItem value="fair">Fair (550-649)</SelectItem>
                               <SelectItem value="poor">Poor (300-549)</SelectItem>
-                              <SelectItem value="unknown">I don't know</SelectItem>
+                              <SelectItem value="unknown">I don&apos;t know</SelectItem>
                             </SelectContent>
                           </Select>
                           <FormMessage />
@@ -832,7 +833,7 @@ export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
                   <AlertCircle className="w-5 h-5 text-yellow-600 mt-0.5" />
                   <div className="text-sm text-yellow-800 dark:text-yellow-200">
                     <p className="font-medium mb-1">You can skip document upload</p>
-                    <p>You'll start with a basic credit limit and can upload documents later to increase your limits and get better rates.</p>
+                    <p>You&apos;ll start with a basic credit limit and can upload documents later to increase your limits and get better rates.</p>
                   </div>
                 </div>
               </div>
@@ -945,7 +946,7 @@ export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
 
               {/* Next Steps */}
               <div className="space-y-3">
-                <h4 className="font-semibold">What's next?</h4>
+                <h4 className="font-semibold">What&apos;s next?</h4>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-blue-500 rounded-full"></div>

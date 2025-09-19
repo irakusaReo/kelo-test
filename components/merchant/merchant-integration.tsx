@@ -92,7 +92,7 @@ app.post('/webhooks/kelo', (req, res) => {
           Kelo for Merchants
         </h1>
         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          Integrate Kelo's Buy Now, Pay Later solution into your store and increase sales by up to 40%
+          Integrate Kelo&apos;s Buy Now, Pay Later solution into your store and increase sales by up to 40%
         </p>
       </div>
 
@@ -440,7 +440,7 @@ app.post('/webhooks/kelo', (req, res) => {
                     <div>
                       <p className="font-medium">Customer Insights</p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
-                        Understand your customers' payment preferences
+                        Understand your customers&apos; payment preferences
                       </p>
                     </div>
                   </div>

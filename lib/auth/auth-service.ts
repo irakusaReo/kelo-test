@@ -1,3 +1,4 @@
+/* eslint-enable @typescript-eslint/no-explicit-any */
 import { GoogleUser, AuthSession } from './auth-types';
 
 export interface AuthenticationState {

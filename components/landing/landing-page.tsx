@@ -117,11 +117,11 @@ export function LandingPage() {
             <Zap className="w-3 h-3 mr-1" />
             Powered by Web3
           </Badge>
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold dark:text-white mb-6 bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
             Buy Now, Pay Later
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-            Kenya's first Web3 BNPL platform. Shop instantly, pay flexibly, and earn yield on your funds. 
+            Kenya&apos;s first Web3 BNPL platform. Shop instantly, pay flexibly, and earn yield on your funds. 
             Built with cutting-edge blockchain technology and M-Pesa integration.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

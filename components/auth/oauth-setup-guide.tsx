@@ -83,7 +83,7 @@ export function OAuthSetupGuide() {
             
             <div className="flex items-center space-x-2">
               <Badge variant="outline">1.4</Badge>
-              <span>Go to "Credentials" in the left sidebar</span>
+              <span>Go to &quot;Credentials&quot; in the left sidebar</span>
             </div>
           </div>
         </CardContent>
@@ -101,12 +101,12 @@ export function OAuthSetupGuide() {
           <div className="space-y-3">
             <div className="flex items-center space-x-2">
               <Badge variant="outline">2.1</Badge>
-              <span>Click "OAuth consent screen" in the left sidebar</span>
+              <span>Click &quot;OAuth consent screen&quot; in the left sidebar</span>
             </div>
             
             <div className="flex items-center space-x-2">
               <Badge variant="outline">2.2</Badge>
-              <span>Choose "External" user type (for testing)</span>
+              <span>Choose &quot;External&quot; user type (for testing)</span>
             </div>
             
             <div className="flex items-center space-x-2">
@@ -145,17 +145,17 @@ export function OAuthSetupGuide() {
           <div className="space-y-3">
             <div className="flex items-center space-x-2">
               <Badge variant="outline">3.1</Badge>
-              <span>Click "Credentials" in the left sidebar</span>
+              <span>Click &quot;Credentials&quot; in the left sidebar</span>
             </div>
             
             <div className="flex items-center space-x-2">
               <Badge variant="outline">3.2</Badge>
-              <span>Click "+ CREATE CREDENTIALS" → "OAuth client ID"</span>
+              <span>Click &quot;+ CREATE CREDENTIALS&quot; → &quot;OAuth client ID&quot;</span>
             </div>
             
             <div className="flex items-center space-x-2">
               <Badge variant="outline">3.3</Badge>
-              <span>Choose "Web application" as the application type</span>
+              <span>Choose &quot;Web application as the application type</span>
             </div>
             
             <div className="flex items-center space-x-2">
@@ -326,7 +326,7 @@ NODE_ENV=development`, 'env')}
           <Alert>
             <CheckCircle className="h-4 w-4" />
             <AlertDescription>
-              If everything is configured correctly, you should be able to sign in with your Google account without seeing the "missing client_id" error.
+              If everything is configured correctly, you should be able to sign in with your Google account without seeing the &quot;missing client_id&quot; error.
             </AlertDescription>
           </Alert>
         </CardContent>
@@ -343,7 +343,7 @@ NODE_ENV=development`, 'env')}
         <CardContent className="space-y-4">
           <div className="space-y-4">
             <div>
-              <h4 className="font-medium text-red-600">Error: "Missing required parameter: client_id"</h4>
+              <h4 className="font-medium text-red-600">Error: &quot;Missing required parameter: client_id&quot;</h4>
               <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 mt-2 space-y-1">
                 <li>Check that GOOGLE_CLIENT_ID is set in your .env.local file</li>
                 <li>Verify the client ID format (should end with .googleusercontent.com)</li>
@@ -352,7 +352,7 @@ NODE_ENV=development`, 'env')}
             </div>
 
             <div>
-              <h4 className="font-medium text-red-600">Error: "Access blocked: Authorization Error"</h4>
+              <h4 className="font-medium text-red-600">Error: &quot;Access blocked: Authorization Error&quot;</h4>
               <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 mt-2 space-y-1">
                 <li>Add your email (ailaowano@gmail.com) to the test users list</li>
                 <li>Make sure your OAuth consent screen is properly configured</li>
@@ -361,7 +361,7 @@ NODE_ENV=development`, 'env')}
             </div>
 
             <div>
-              <h4 className="font-medium text-red-600">Error: "redirect_uri_mismatch"</h4>
+              <h4 className="font-medium text-red-600">Error: &quot;redirect_uri_mismatch&quot;</h4>
               <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 mt-2 space-y-1">
                 <li>Verify the redirect URI in Google Console matches: {redirectUri}</li>
                 <li>Check for trailing slashes or typos</li>

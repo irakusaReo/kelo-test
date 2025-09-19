@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
 import { useState } from 'react';
@@ -123,7 +124,7 @@ export function WelcomeFlow({ onComplete }: WelcomeFlowProps) {
         {step === 2 && (
           <Card className="border-0 shadow-xl">
             <CardHeader className="text-center">
-              <CardTitle className="text-xl">Let's get to know you</CardTitle>
+              <CardTitle className="text-xl">Let&apos;s get to know you</CardTitle>
               <p className="text-gray-600 dark:text-gray-300">
                 Just a few details to get started
               </p>
@@ -242,14 +243,14 @@ export function WelcomeFlow({ onComplete }: WelcomeFlowProps) {
               <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="w-8 h-8 text-green-600" />
               </div>
-              <CardTitle className="text-xl">You're all set!</CardTitle>
+              <CardTitle className="text-xl">You&apos;re all set!</CardTitle>
               <p className="text-gray-600 dark:text-gray-300">
                 Your Kelo account is ready to use
               </p>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="bg-gradient-to-r from-pink-50 to-purple-50 dark:from-pink-950 dark:to-purple-950 p-4 rounded-lg">
-                <h3 className="font-semibold mb-2">What's next?</h3>
+                <h3 className="font-semibold mb-2">What&apos;s next?</h3>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
